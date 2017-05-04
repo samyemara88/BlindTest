@@ -118,11 +118,12 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="label5.Text" xml:space="preserve">
-    <value>Le blind test musical est le plus connu et surtout le plus pratiqué. Le principe de ce jeu est simple :
+    <value>Le blind test musical est le plus connu et surtout le plus pratiqué de tous les jeux d'écoute ! 
 
-Après une authentification  les joueurs ont pour objectif de deviner le plus rapidement possible les caractéristiques
-
- d’une chanson grâce à la diffusion d’un extrait de celle-ci.
+Le principe de ce jeu est simple :
+   Après s'être authentifiés et démarré la partie,  les joueurs ont droit à 15 secondes d'écoute d'un extrait musical, 
+   et ont pour objectif de deviner le plus rapidement possible (10 secondes maximum) le titre de la chanson correspondante à l'extrait écouté.
+   Un test est composé de x questions.
 </value>
   </data>
 </root>

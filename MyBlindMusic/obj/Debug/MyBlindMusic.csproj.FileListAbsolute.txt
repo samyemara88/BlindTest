@@ -15,7 +15,6 @@ C:\Users\Touil\Desktop\Projet-Imade_Samy\MyBlindMusic\MyBlindMusic\obj\Debug\MyB
 C:\Users\Soumaya\Desktop\MyBlindMusic\MyBlindMusic\bin\Debug\MyBlindMusic.exe.config
 C:\Users\Soumaya\Desktop\MyBlindMusic\MyBlindMusic\obj\Debug\MyBlindMusic.exe
 C:\Users\Soumaya\Desktop\MyBlindMusic\MyBlindMusic\obj\Debug\MyBlindMusic.pdb
-C:\Users\Soumaya\Desktop\MyBlindMusic\MyBlindMusic\obj\Debug\MyBlindMusic.csprojResolveAssemblyReference.cache
 C:\Users\Soumaya\Desktop\MyBlindMusic\MyBlindMusic\obj\Debug\MyBlindMusic.choix.resources
 C:\Users\Soumaya\Desktop\MyBlindMusic\MyBlindMusic\obj\Debug\MyBlindMusic.frmPlay.resources
 C:\Users\Soumaya\Desktop\MyBlindMusic\MyBlindMusic\obj\Debug\MyBlindMusic.frmIdentification.resources
@@ -25,3 +24,4 @@ C:\Users\Soumaya\Desktop\MyBlindMusic\MyBlindMusic\obj\Debug\MyBlindMusic.Score.
 C:\Users\Soumaya\Desktop\MyBlindMusic\MyBlindMusic\obj\Debug\MyBlindMusic.csproj.GenerateResource.Cache
 C:\Users\Soumaya\Desktop\MyBlindMusic\MyBlindMusic\bin\Debug\MyBlindMusic.exe
 C:\Users\Soumaya\Desktop\MyBlindMusic\MyBlindMusic\bin\Debug\MyBlindMusic.pdb
+C:\Users\Soumaya\Desktop\MyBlindMusic\MyBlindMusic\obj\Debug\MyBlindMusic.End.resources
