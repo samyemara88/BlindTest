@@ -61,7 +61,7 @@
             this.tbBestScore.Name = "tbBestScore";
             this.tbBestScore.Size = new System.Drawing.Size(100, 27);
             this.tbBestScore.TabIndex = 3;
-            this.tbBestScore.Text = "100 Points";
+            this.tbBestScore.TextChanged += new System.EventHandler(this.tbBestScore_TextChanged);
             // 
             // tbScore
             // 
@@ -69,7 +69,7 @@
             this.tbScore.Name = "tbScore";
             this.tbScore.Size = new System.Drawing.Size(100, 27);
             this.tbScore.TabIndex = 4;
-            this.tbScore.Text = "10 Points";
+            this.tbScore.TextChanged += new System.EventHandler(this.tbScore_TextChanged);
             // 
             // txtInfo
             // 

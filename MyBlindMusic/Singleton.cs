@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MyBlindMusic
 {
-  s
+  
         public class Singleton
         {
             private static Singleton instance;
@@ -21,9 +21,59 @@ namespace MyBlindMusic
                     {
                         instance = new Singleton();
                     }
+
+                
                     return instance;
                 }
             }
+
+        public string Pseudo
+        {
+            get
+            {
+                return m_pseudo;
+            }
+
+            set
+            {
+                m_pseudo = value;
+            }
+        }
+
+        private string m_pseudo;
+
+        public int Score
+        {
+            get
+            {
+                return m_score;
+            }
+
+            set
+            {
+                m_score = value;
+            }
+        }
+
+
+        private int m_score;
+
+        public int Max_score
+        {
+            get
+            {
+                return m_max_score;
+            }
+
+            set
+            {
+                m_max_score = value;
+            }
+        }
+
+      
+        private int m_max_score;
+
         }
 
     
