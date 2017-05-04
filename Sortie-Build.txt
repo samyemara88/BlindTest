@@ -1,0 +1,6 @@
+﻿1>------ Début de la régénération globale : Projet : MyBlindMusic, Configuration : Debug Any CPU ------
+1>C:\Users\Soumaya\Desktop\MyBlindMusic\MyBlindMusic\New-Game.cs(49,24,49,27): warning CS0649: Le champ 'frmPlay.url' n'est jamais assigné et aura toujours sa valeur par défaut null
+1>C:\Users\Soumaya\Desktop\MyBlindMusic\MyBlindMusic\Music.cs(28,24,28,30): warning CS0169: Le champ 'Music.m_path' n'est jamais utilisé
+1>C:\Users\Soumaya\Desktop\MyBlindMusic\MyBlindMusic\Class1.cs(15,30,15,32): warning CS0649: Le champ 'Class1.dr' n'est jamais assigné et aura toujours sa valeur par défaut null
+1>  MyBlindMusic -> C:\Users\Soumaya\Desktop\MyBlindMusic\MyBlindMusic\bin\Debug\MyBlindMusic.exe
+========== Régénération globale : 1 a réussi, 0 a échoué, 0 a été ignoré ==========
