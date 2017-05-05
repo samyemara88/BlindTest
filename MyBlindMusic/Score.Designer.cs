@@ -31,11 +31,10 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Score));
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.tbBestScore = new System.Windows.Forms.TextBox();
-            this.tbScore = new System.Windows.Forms.TextBox();
             this.txtInfo = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
             this.Back = new System.Windows.Forms.Button();
+            this.labelScore = new System.Windows.Forms.Label();
+            this.labeltbBestScore = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label2
@@ -62,28 +61,6 @@
             this.label3.Text = "Votre Score : ";
             this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
-            // tbBestScore
-            // 
-            this.tbBestScore.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
-            this.tbBestScore.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.tbBestScore.ForeColor = System.Drawing.SystemColors.Window;
-            this.tbBestScore.Location = new System.Drawing.Point(843, 387);
-            this.tbBestScore.Name = "tbBestScore";
-            this.tbBestScore.Size = new System.Drawing.Size(122, 20);
-            this.tbBestScore.TabIndex = 3;
-            this.tbBestScore.TextChanged += new System.EventHandler(this.tbBestScore_TextChanged);
-            // 
-            // tbScore
-            // 
-            this.tbScore.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
-            this.tbScore.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.tbScore.ForeColor = System.Drawing.SystemColors.Window;
-            this.tbScore.Location = new System.Drawing.Point(842, 431);
-            this.tbScore.Name = "tbScore";
-            this.tbScore.Size = new System.Drawing.Size(123, 20);
-            this.tbScore.TabIndex = 4;
-            this.tbScore.TextChanged += new System.EventHandler(this.tbScore_TextChanged);
-            // 
             // txtInfo
             // 
             this.txtInfo.AutoSize = true;
@@ -96,18 +73,6 @@
             this.txtInfo.TabIndex = 5;
             this.txtInfo.Text = "Informations";
             this.txtInfo.Click += new System.EventHandler(this.txtInfo_Click);
-            // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button1.Location = new System.Drawing.Point(999, 647);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(80, 38);
-            this.button1.TabIndex = 6;
-            this.button1.Text = "Back";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Back
             // 
@@ -122,6 +87,23 @@
             this.Back.Text = "Back";
             this.Back.UseCompatibleTextRendering = true;
             this.Back.UseVisualStyleBackColor = false;
+            this.Back.Click += new System.EventHandler(this.Back_Click);
+            // 
+            // labelScore
+            // 
+            this.labelScore.AutoSize = true;
+            this.labelScore.Location = new System.Drawing.Point(856, 387);
+            this.labelScore.Name = "labelScore";
+            this.labelScore.Size = new System.Drawing.Size(0, 22);
+            this.labelScore.TabIndex = 8;
+            // 
+            // labeltbBestScore
+            // 
+            this.labeltbBestScore.AutoSize = true;
+            this.labeltbBestScore.Location = new System.Drawing.Point(856, 431);
+            this.labeltbBestScore.Name = "labeltbBestScore";
+            this.labeltbBestScore.Size = new System.Drawing.Size(0, 22);
+            this.labeltbBestScore.TabIndex = 9;
             // 
             // Score
             // 
@@ -129,12 +111,11 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
             this.BackgroundImage = global::MyBlindMusic.Properties.Resources.parallax_1;
-            this.ClientSize = new System.Drawing.Size(1497, 650);
+            this.ClientSize = new System.Drawing.Size(1914, 650);
+            this.Controls.Add(this.labeltbBestScore);
+            this.Controls.Add(this.labelScore);
             this.Controls.Add(this.Back);
-            this.Controls.Add(this.button1);
             this.Controls.Add(this.txtInfo);
-            this.Controls.Add(this.tbScore);
-            this.Controls.Add(this.tbBestScore);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -152,10 +133,9 @@
         #endregion
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox tbBestScore;
-        private System.Windows.Forms.TextBox tbScore;
         private System.Windows.Forms.Label txtInfo;
-        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button Back;
+        private System.Windows.Forms.Label labelScore;
+        private System.Windows.Forms.Label labeltbBestScore;
     }
 }

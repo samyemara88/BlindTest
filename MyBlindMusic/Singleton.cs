@@ -70,11 +70,31 @@ namespace MyBlindMusic
                 m_max_score = value;
             }
         }
-
-      
         private int m_max_score;
 
+
+
+        public int Actual_score
+        {
+            get
+            {
+                return actual_score;
+            }
+
+            set
+            {
+                actual_score = value;
+            }
         }
+
+       
+
+
+        private int actual_score;
+
+        }
+
+   
 
     
 }

@@ -15,6 +15,7 @@ namespace MyBlindMusic
         public SqlDataReader dr;
         public string s;
         public string bs;
+        public string maj;
         public string max;
     }
 }

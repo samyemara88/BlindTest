@@ -53,12 +53,12 @@
             this.NewGame.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(75)))), ((int)(((byte)(83)))));
             this.NewGame.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.NewGame.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.NewGame.Location = new System.Drawing.Point(562, 347);
-            this.NewGame.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.NewGame.Location = new System.Drawing.Point(722, 341);
+            this.NewGame.Margin = new System.Windows.Forms.Padding(4);
             this.NewGame.Name = "NewGame";
-            this.NewGame.Size = new System.Drawing.Size(133, 50);
+            this.NewGame.Size = new System.Drawing.Size(247, 104);
             this.NewGame.TabIndex = 3;
-            this.NewGame.Text = "New Game";
+            this.NewGame.Text = "JOUER";
             this.NewGame.UseVisualStyleBackColor = false;
             this.NewGame.Click += new System.EventHandler(this.NewGame_Click);
             // 
@@ -66,10 +66,10 @@
             // 
             this.BestScore.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(75)))), ((int)(((byte)(83)))));
             this.BestScore.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.BestScore.Location = new System.Drawing.Point(773, 347);
-            this.BestScore.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BestScore.Location = new System.Drawing.Point(574, 495);
+            this.BestScore.Margin = new System.Windows.Forms.Padding(4);
             this.BestScore.Name = "BestScore";
-            this.BestScore.Size = new System.Drawing.Size(133, 50);
+            this.BestScore.Size = new System.Drawing.Size(149, 66);
             this.BestScore.TabIndex = 4;
             this.BestScore.Text = "Best Score";
             this.BestScore.UseVisualStyleBackColor = false;
@@ -80,10 +80,10 @@
             this.GameRules.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(75)))), ((int)(((byte)(83)))));
             this.GameRules.FlatAppearance.BorderSize = 0;
             this.GameRules.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.GameRules.Location = new System.Drawing.Point(985, 347);
-            this.GameRules.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.GameRules.Location = new System.Drawing.Point(962, 495);
+            this.GameRules.Margin = new System.Windows.Forms.Padding(4);
             this.GameRules.Name = "GameRules";
-            this.GameRules.Size = new System.Drawing.Size(133, 50);
+            this.GameRules.Size = new System.Drawing.Size(146, 66);
             this.GameRules.TabIndex = 5;
             this.GameRules.Text = "Game Rules";
             this.GameRules.UseVisualStyleBackColor = false;
@@ -102,6 +102,7 @@
             this.LogOut.TabIndex = 6;
             this.LogOut.Text = "Log Out";
             this.LogOut.UseVisualStyleBackColor = false;
+            this.LogOut.Click += new System.EventHandler(this.LogOut_Click);
             // 
             // choix
             // 
@@ -117,7 +118,7 @@
             this.Controls.Add(this.label1);
             this.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "choix";
             this.Text = "choix";
             this.ResumeLayout(false);

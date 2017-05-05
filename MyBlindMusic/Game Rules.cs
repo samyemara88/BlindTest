@@ -29,6 +29,8 @@ namespace MyBlindMusic
 
         private void Back_Click(object sender, EventArgs e)
         {
+            choix choix = new choix();
+            choix.Show();
             this.Close();
         }
     }

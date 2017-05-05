@@ -49,9 +49,9 @@
             this.Authentification.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Authentification.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.Authentification.Location = new System.Drawing.Point(595, 303);
-            this.Authentification.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Authentification.Margin = new System.Windows.Forms.Padding(4);
             this.Authentification.Name = "Authentification";
-            this.Authentification.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Authentification.Padding = new System.Windows.Forms.Padding(4);
             this.Authentification.Size = new System.Drawing.Size(661, 263);
             this.Authentification.TabIndex = 0;
             this.Authentification.TabStop = false;
@@ -85,7 +85,7 @@
             // textBox2
             // 
             this.textBox2.Location = new System.Drawing.Point(320, 119);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(4);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(236, 27);
             this.textBox2.TabIndex = 3;
@@ -93,7 +93,7 @@
             // textBox1
             // 
             this.textBox1.Location = new System.Drawing.Point(320, 66);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(4);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(236, 27);
             this.textBox1.TabIndex = 2;
@@ -104,7 +104,7 @@
             this.Login.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.Login.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.Login.Location = new System.Drawing.Point(445, 187);
-            this.Login.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Login.Margin = new System.Windows.Forms.Padding(4);
             this.Login.Name = "Login";
             this.Login.Size = new System.Drawing.Size(111, 54);
             this.Login.TabIndex = 1;
@@ -120,7 +120,7 @@
             this.ClientSize = new System.Drawing.Size(1914, 1045);
             this.Controls.Add(this.Authentification);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "frmIdentification";
             this.Text = "Authentification";
             this.Load += new System.EventHandler(this.frmIdentification_Load);

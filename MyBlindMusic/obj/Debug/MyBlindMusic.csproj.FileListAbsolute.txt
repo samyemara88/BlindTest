@@ -25,3 +25,4 @@ C:\Users\Soumaya\Desktop\MyBlindMusic\MyBlindMusic\obj\Debug\MyBlindMusic.csproj
 C:\Users\Soumaya\Desktop\MyBlindMusic\MyBlindMusic\bin\Debug\MyBlindMusic.exe
 C:\Users\Soumaya\Desktop\MyBlindMusic\MyBlindMusic\bin\Debug\MyBlindMusic.pdb
 C:\Users\Soumaya\Desktop\MyBlindMusic\MyBlindMusic\obj\Debug\MyBlindMusic.End.resources
+C:\Users\Soumaya\Desktop\MyBlindMusic\MyBlindMusic\obj\Debug\MyBlindMusic.csprojResolveAssemblyReference.cache
